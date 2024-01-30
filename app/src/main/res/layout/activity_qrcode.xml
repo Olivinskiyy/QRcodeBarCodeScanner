@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:id="@+id/rootView"
+    android:background="@color/white"
+    tools:context=".QRcode">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/scanner"
+        android:layout_alignTop="@+id/scanner"
+        android:layout_alignEnd="@+id/scanner"
+        android:layout_alignBottom="@+id/scanner"
+        android:layout_marginStart="-60dp"
+        android:layout_marginTop="-313dp"
+        android:layout_marginEnd="-68dp"
+        android:layout_marginBottom="261dp"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/scanner"
+        android:layout_width="244dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="63dp"
+        app:srcCompat="@drawable/buttonqrcodescan" />
+
+</RelativeLayout>

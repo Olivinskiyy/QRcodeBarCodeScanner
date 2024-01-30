@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootView"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/qrcode"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="82dp"
+
+
+        android:layout_marginTop="369dp"
+        android:layout_marginEnd="73dp"
+        android:text="SCAN QRcode" />
+
+    <Button
+        android:id="@+id/barcode"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+
+
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="75dp"
+        android:text="SCAN BarCode" />
+
+    <Button
+        android:id="@+id/barcodecreate"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="81dp"
+
+
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="74dp"
+        android:text="CREATE BarCode" />
+
+    <Button
+        android:id="@+id/qrcodecreate"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+
+
+        android:layout_marginTop="533dp"
+        android:layout_marginEnd="75dp"
+        android:text="CREATE QRcode" />
+
+
+    <Button
+        android:id="@+id/buttonChangeBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="646dp"
+        android:layout_marginEnd="101dp"
+        android:text="Change Background" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="237dp"
+        android:layout_height="252dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="423dp"
+        app:srcCompat="@drawable/manqrcode" />
+
+</RelativeLayout>
